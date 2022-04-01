@@ -15,14 +15,14 @@ namespace Zadanie_8
             string path = @"Input.txt";
 
             double f = 400;
-            double w = 10000;
-            double Ф = 1.25 * Math.Pow(10, -4);
+ 
+       
 
             StreamWriter sw = new StreamWriter(path, false);
 
             sw.WriteLine(f);
-            sw.WriteLine(w);
-            sw.WriteLine(Ф);
+           
+   
 
             sw.Close();
 
